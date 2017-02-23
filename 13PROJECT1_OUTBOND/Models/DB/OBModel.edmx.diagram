@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5ad667d41e8d469bbfec2ebe5bdfa612" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="OBDBModel.laporan" Width="1.5" PointX="3.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OBDBModel.LOOKUPRole" Width="1.5" PointX="8.625" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OBDBModel.outbond" Width="1.5" PointX="0.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OBDBModel.pelanggan" Width="1.5" PointX="6.375" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OBDBModel.SYSUser" Width="1.5" PointX="3.625" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OBDBModel.SYSUserProfile" Width="1.5" PointX="0.625" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="OBDBModel.SYSUserRole" Width="1.5" PointX="5.875" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="OBDBModel.FK__laporan__id_outb__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="OBDBModel.FK__laporan__id_pela__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="OBDBModel.FK__SYSUserRo__LOOKU__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="OBDBModel.FK__SYSUserPr__SYSUs__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="OBDBModel.FK__SYSUserRo__SYSUs__35BCFE0A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
